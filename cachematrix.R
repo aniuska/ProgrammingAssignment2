@@ -1,6 +1,14 @@
 ##The functions below create an object that stores a squared matrix and 
 ##caches its inverse.
 
+####################################################################
+## Example for executng these functions:                          ##
+##                                                                ##
+##  ma<-makeCacheMatrix(matrix(rnorm(16),4))                      ##
+##  cacheSolve(ma)                                                ##
+##                                                                ##
+####################################################################
+
 ##MakeCacheMatrix function:
 ##Create an object containing functions for accessing a matrix and its inverse
 ##
